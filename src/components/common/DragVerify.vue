@@ -154,7 +154,7 @@ export default {
       if (!this.isPassing) {
         this.isMoving = true
         var handler = this.$refs.handler
-        this.x = (e.pageX || e.touches[0].pageX) - parseInt(handler.style.left.replace('px', ''), 10)
+        this.x = (e.pageX || e.touches[0].pageX) - parseInt(handler.style.left.replace('px', ''), 20)
       }
       this.$emit('handlerMove')
     },
@@ -268,14 +268,14 @@ export default {
       right top,
       color-stop(0, var(--textColor)),
       color-stop(0.4, var(--textColor)),
-      color-stop(0.5, #fff),
+      color-stop(0.3, #ffe3ae),
       color-stop(0.6, var(--textColor)),
       color-stop(1, var(--textColor))
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-size-adjust: none;
-    animation: slidetounlock 3s infinite;
+    animation: slidetounlock 2s infinite;
 
     * {
       -webkit-text-fill-color: var(--textColor);

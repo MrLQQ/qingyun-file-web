@@ -2,7 +2,7 @@
   <div class="login-wrapper" id="loginBackground">
     <div class="form-wrapper">
       <h1 class="login-title">登录</h1>
-      <p class="login-system">奇文网盘</p>
+      <p class="login-system">轻云网盘</p>
       <!-- 登录表单 -->
       <el-form
         class="login-form"
@@ -48,10 +48,12 @@ import { login } from '@/request/user.js'
 
 // 配置
 const config = {
-  color: '64, 158, 255', // 线条颜色
-  pointColor: '64, 158, 255', // 节点颜色
-  opacity: 0.5, // 线条透明度
-  count: 99, // 线条数量
+  // color: '64, 158, 255', // 线条颜色
+  color: '255, 107, 129', // 线条颜色
+  // pointColor: '64, 158, 255', // 节点颜色
+  pointColor: '255, 71, 87', // 节点颜色
+  opacity: 0.6, // 线条透明度
+  count: 200, // 线条数量
   zIndex: -1 // 画面层级
 }
 

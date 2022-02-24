@@ -2,20 +2,18 @@
   <div class="home-swapper">
     <!-- Banner图 -->
     <Banner></Banner>
-    <!-- 功能介绍 -->
-    <Function></Function>
+    <!--&lt;!&ndash; 功能介绍 &ndash;&gt;-->
+    <!--<Function></Function>-->
   </div>
 </template>
 
 <script>
 import Banner from './components/Banner.vue'
-import Function from './components/Function.vue'
 
 export default {
   name: 'Home',
   components: {
     Banner,
-    Function
   },
   data() {
     return {}

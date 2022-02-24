@@ -59,15 +59,15 @@
         <span>{{ storageValue | storageTrans }}</span>
       </div>
     </div>
-    <!-- 展开 & 收缩分类栏 -->
-    <el-tooltip effect="dark" :content="isCollapse ? '展开' : '收起'" placement="right">
-      <div class="aside-title" @click="isCollapse ? (isCollapse = false) : (isCollapse = true)">
-        <div class="top"></div>
-        <i class="icon el-icon-d-arrow-right" v-if="isCollapse" title="展开"></i>
-        <i class="icon el-icon-d-arrow-left" v-else title="收起"></i>
-        <div class="bottom"></div>
-      </div>
-    </el-tooltip>
+    <!--&lt;!&ndash; 展开 & 收缩分类栏 &ndash;&gt;-->
+    <!--<el-tooltip effect="dark" :content="isCollapse ? '展开' : '收起'" placement="right">-->
+    <!--  <div class="aside-title" @click="isCollapse ? (isCollapse = false) : (isCollapse = true)">-->
+    <!--    <div class="top"></div>-->
+    <!--    <i class="icon el-icon-d-arrow-right" v-if="isCollapse" title="展开"></i>-->
+    <!--    <i class="icon el-icon-d-arrow-left" v-else title="收起"></i>-->
+    <!--    <div class="bottom"></div>-->
+    <!--  </div>-->
+    <!--</el-tooltip>-->
   </div>
 </template>
 
